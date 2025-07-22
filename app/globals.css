@@ -98,6 +98,46 @@
   .quadrant-contexto.highlighted { border-color: var(--color-brand); }
   .quadrant-baja.highlighted { border-color: var(--color-text-secondary); }
 
+  details {
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+}
+details[open] {
+    background-color: var(--color-surface);
+}
+summary {
+    font-weight: 500;
+    cursor: pointer;
+    padding: 1rem;
+}
+summary::marker {
+    color: var(--color-brand);
+}
+.details-content {
+    padding: 0 1rem 1rem 2.5rem;
+    color: var(--color-text-secondary);
+}
+.styled-list {
+  list-style: none;
+  padding-left: 0;
+}
+.styled-list li {
+  position: relative;
+  padding-left: 1.75rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-text-secondary);
+}
+.styled-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: var(--color-brand);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
   /* --- Otros estilos que puedan haber faltado --- */
   /* (Aquí irían los estilos de la planilla de titulación, que ya funcionan bien) */
 }
