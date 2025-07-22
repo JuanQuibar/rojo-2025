@@ -2,26 +2,102 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --color-brand: #0096ff;
+    --color-text-primary: #212529;
+    --color-text-secondary: #6c757d;
+    --color-background: #f8f9fa;
+    --color-surface: #ffffff;
+    --color-border: #dee2e6;
+    --color-danger: #dc3545;
+    --color-warning: #ffc107;
+    --color-success: #198754;
+    --color-info: #0dcaf0;
   }
+  html { @apply scroll-smooth; }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    font-family: var(--font-inter);
+    @apply antialiased;
+  }
+  h1, h2, h3 { font-family: var(--font-merriweather); @apply font-bold; }
+  h1 { @apply text-4xl md:text-[2.75rem] leading-tight; }
+  h2 { @apply text-3xl md:text-4xl leading-snug; }
+  h3 { @apply text-2xl md:text-3xl leading-normal; }
+  h4 { @apply text-xl font-bold; }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer components {
+  /* --- Estilos Generales --- */
+  .brand-text { color: var(--color-brand); }
+  .section-subtitle { @apply font-sans font-bold text-brand uppercase tracking-wider; }
+  .card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    @apply rounded-xl shadow-sm transition-all duration-300;
+  }
+  .card:hover { border-color: var(--color-brand); @apply shadow-lg; }
+  .divider { height: 1px; background-color: var(--color-border); @apply my-20; }
+  
+  /* ======================================= */
+  /* --- CALCULADORA DE VALOR PERIODÍSTICO --- */
+  /* ======================================= */
+  .value-selector-label {
+    cursor: pointer;
+    display: block;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    font-weight: 500;
+  }
+  .value-selector-label:hover { background-color: #f1f3f5; border-color: #adb5bd; }
+  input[type="radio"]:checked + .value-selector-label {
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 150, 255, 0.3);
+  }
+  .emoji-btn {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    opacity: 0.5;
+    filter: grayscale(100%);
+    padding: 0.5rem;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+  }
+  .emoji-btn:hover { opacity: 1; filter: grayscale(0%); transform: scale(1.1); }
+  .emoji-btn.selected {
+    opacity: 1;
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    background-color: rgba(0, 150, 255, 0.1);
+    border-color: var(--color-brand);
+  }
+  .intensity-star { cursor: pointer; color: #ced4da; transition: all 0.2s ease; }
+  .intensity-star:hover { transform: scale(1.2); color: var(--color-warning); }
+  .intensity-star.selected { color: var(--color-warning); }
+  .quadrant {
+    transition: all 0.3s ease-in-out;
+    border: 2px solid var(--color-border);
+    background-color: var(--color-surface);
+    position: relative;
+    /* Las clases de Flexbox y PADDING van en el JSX, no aquí */
+  }
+  .quadrant.highlighted {
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.15);
+  }
+  .quadrant-lider.highlighted { border-color: var(--color-danger); }
+  .quadrant-apuesta.highlighted { border-color: var(--color-warning); }
+  .quadrant-contexto.highlighted { border-color: var(--color-brand); }
+  .quadrant-baja.highlighted { border-color: var(--color-text-secondary); }
+
+  /* --- Otros estilos que puedan haber faltado --- */
+  /* (Aquí irían los estilos de la planilla de titulación, que ya funcionan bien) */
 }
