@@ -20,6 +20,8 @@
     background-color: var(--color-background);
     color: var(--color-text-primary);
     font-family: var(--font-inter);
+    max-width: 960px;
+    margin: 0 auto; /* Centra el contenido horizontalmente */
     @apply antialiased;
   }
   h1, h2, h3 { font-family: var(--font-merriweather); @apply font-bold; }
