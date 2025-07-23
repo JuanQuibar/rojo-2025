@@ -56,8 +56,8 @@ const Punto2_Agenda = () => {
             <p className="text-text-primary">Aquí es donde creamos valor único. Llevaremos un registro constante (en una pizarra, cuaderno o documento digital compartido) de:</p>
             <ul className="list-disc list-inside mt-2 space-y-1 text-text-secondary">
               <li><strong className="text-yellow-600">Temas de Impacto:</strong> Las noticias que en su momento generaron una alta &quot;Fuerza Emocional&quot;. Debemos darles seguimiento periódico para encontrar nuevos capítulos relevantes y publicables.</li>
-              <li><strong className="text-yellow-600">Notas Enterradas:</strong> Las ideas, ángulos o personajes secundarios que quedaron enterrados en notas anteriores o actules.</li>
-              <li><strong className="text-yellow-600">Notas Satélite:</strong> Son las notas que se desprenden de un noticia principal. Generan interés en los lectores humanos y suelen funcionar bien para los algoritmos.</li>
+              <li><strong className="text-yellow-600">Notas Enterradas:</strong> Las ideas, ángulos o personajes secundarios que quedaron enterrados en notas anteriores o actuales.</li>
+              <li><strong className="text-yellow-600">Notas Satélite:</strong> Son las notas que se desprenden de una noticia principal. Generan interés en los lectores humanos y suelen funcionar bien para los algoritmos.</li>
             </ul>
           </div>
         </div>

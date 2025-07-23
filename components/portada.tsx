@@ -15,7 +15,7 @@ const Portada = () => {
           />
         </div>
         <h1 className="font-black tracking-tight">
-          Manifiesto del <span className="brand-text">Equipo Rojo</span>
+          La era de la <span className="brand-text">emoción</span>
         </h1>
         <p className="mt-6 text-lg md:text-xl text-text-secondary max-w-3xl mx-auto">
         En su momento dimos un gran salto al darle personalidad y objetivos al equipo rojo. Ha llegado del momento de dar otro paso importante en la evolución de nuestro portal. Este documento es la brújula que desde ahora guiará cada decisión editorial, cada título que escribamos, cada foto que pongamos y cada historia que contemos. 
@@ -33,7 +33,7 @@ const Portada = () => {
             </div>
             <div>
               <h2 className="text-3xl font-bold mb-3">1. ¿Qué queremos lograr? <span className="brand-text">Nuestro Objetivo</span></h2>
-              <p className="text-text-secondary text-lg">✓ Queremos que la home de Diario UNO se lea como un <strong className="text-text-primary">relato en sí mismo</strong>, donde cada título y foto no son una información aislada, sino un párrafo que cuenta un fragmento de la historia del día. Buscamos que cada uno de esos párrafos (o sea: cada título) no solo informe, sino que provoque en el lector humano una <strong className="text-text-primary">emoción definida</strong>: sorpresa, indignación, orgullo, curiosidad, empatía.</p>
+              <p className="text-text-secondary text-lg">✓ Queremos que la home de Diario UNO se lea como un <strong className="text-text-primary">relato en sí mismo</strong>, donde cada título y foto son un párrafo de una solo experiencia informativa. La home debe funcionar como un producto. Buscamos que cada uno de esos párrafos (o sea: cada título) no solo informe, sino que provoque en el lector humano una <strong className="text-text-primary">emoción definida</strong>: sorpresa, indignación, orgullo, curiosidad, empatía.</p>
               <p>✓ Queremos que los títulos interiores seduzcan a los algoritmos con un Seo bien pensada, ademas de despertar las mismas emociones humanas que los de portada.</p>
             </div>
           </div>

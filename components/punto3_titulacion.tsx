@@ -148,6 +148,7 @@ export default function Punto3_Titulacion() {
                             <ul className="list-disc list-inside space-y-2 text-text-secondary">
                                 <li><strong className="text-text-primary">Diseñado para:</strong> El lector que llega de buscadores y para los algoritmos de Google.</li>
                                 <li><strong className="text-text-primary">Objetivo:</strong> Ser claro, descriptivo, responder a una intención de búsqueda y estar optimizado con palabras clave.</li>
+                                <li><strong className="text-text-primary">Aclaración:</strong> Todo lo anterior no significa que el título sea aburrido o con poca carga emocional.</li>
                             </ul>
                         </div>
                     </div>
@@ -182,6 +183,7 @@ export default function Punto3_Titulacion() {
                             <li>Clichés y frases hechas (&quot;polémica en las redes&quot;).</li>
                             <li>Verbos en futuro sobre eventos no confirmados.</li>
                             <li>Ambigüedad engañosa (Clickbait barato).</li>
+                            <li>Adjetivación forzada como recurso para generar emoción.</li>
                         </ul>
                     </div>
                 </div>
