@@ -127,7 +127,7 @@ export default function Punto3_Titulacion() {
             <div className="text-center mb-12">
                 <p className="section-subtitle">PUNTO 3: EL MÉTODO</p>
                 <h2 className="mt-2">Dominar el arte de la <span className="brand-text">Titulación Estratégica</span></h2>
-                <p className="text-center text-lg text-text-secondary max-w-4xl mx-auto mt-4">El título es el 90% de la batalla por la atención de nuestro lector. Por eso, dejamos de tratarlo como un resumen para convertirlo en el origen de la historia. El título se piensa y se escribe antes de redactar la nota. Este es el núcleo de nuestro nuevo flujo de trabajo.</p>
+                <p className="text-center text-lg text-text-secondary max-w-4xl mx-auto mt-4">El título y la foto son el 90% de la batalla por la atención de nuestro lector. Por eso, dejamos de tratarlo como un resumen para convertirlo en el origen de la historia. <span className='font-bold'>Los dos títulos de cada nota (portada e interior) se escriben antes de redactar la nota y la foto se elige antes de redactar la nota.</span> Este es el núcleo de nuestro nuevo flujo de trabajo.</p>
             </div>
 
             <div className="max-w-5xl mx-auto space-y-12 mb-16">
@@ -191,8 +191,8 @@ export default function Punto3_Titulacion() {
                 <h3 className="mb-4 brand-text">D. Secuencia de Trabajo: Tu Checklist para Titular</h3>
                 <p className="text-text-secondary mb-6">Este es el proceso mental y práctico que debés seguir para cada título:</p>
                 <ol className="list-decimal list-inside space-y-4 text-text-secondary card p-8">
-                    <li>Leé en voz alta los títulos que ya están en la planilla o en la portada. Sentí el ritmo y el tono del &quot;relato&quot; actual.</li>
-                    <li>Escribí tu <strong className="text-text-primary">Título de Portada</strong> en la plantilla, aplicando la estrategia emocional que mejor se ajuste.</li>
+                    <li>Leé en voz alta los títulos y mirá las fotos que ya están en la planilla o en la portada . Sentí el ritmo y el tono del &quot;relato&quot; actual.</li>
+                    <li>Escribí tu <strong className="text-text-primary">Título de Portada</strong> en la plantilla y pegá la foto, aplicando la estrategia emocional que mejor se ajuste.</li>
                     <li>Sometelo a este filtro de preguntas:
                         <ul className="list-disc list-inside ml-6 mt-2">
                             <li>¿Se entiende a la perfección? Si no, reescribilo.</li>

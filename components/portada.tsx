@@ -18,10 +18,10 @@ const Portada = () => {
           Manifiesto del <span className="brand-text">Equipo Rojo</span>
         </h1>
         <p className="mt-6 text-lg md:text-xl text-text-secondary max-w-3xl mx-auto">
-          Este documento es la brújula que desde ahora guiará cada decisión editorial, cada título que escribamos y cada historia que contemos. Nuestro propósito trasciende la simple entrega de noticias. Nos dedicamos a forjar una conexión profunda y duradera con una audiencia que no nos elige por accidente, sino que nos busca.
+        En su momento dimos un gran salto al darle personalidad y objetivos al equipo rojo. Ha llegado del momento de dar otro paso importante en la evolución de nuestro portal. Este documento es la brújula que desde ahora guiará cada decisión editorial, cada título que escribamos, cada foto que pongamos y cada historia que contemos. 
         </p>
         <p className="mt-4 text-lg md:text-xl text-text-primary font-medium max-w-3xl mx-auto">
-          Abandonamos la portada como un mero listado de eventos para abrazarla como lo que debe ser: un relato coherente, vibrante y emocional. Nuestra misión es transformar la información en emoción, el dato en significado y el clic en lealtad.
+         Nuestra misión es transformar la información en emoción, el dato en significado y el clic en lealtad.
         </p>
       </header>
 
@@ -33,7 +33,8 @@ const Portada = () => {
             </div>
             <div>
               <h2 className="text-3xl font-bold mb-3">1. ¿Qué queremos lograr? <span className="brand-text">Nuestro Objetivo</span></h2>
-              <p className="text-text-secondary text-lg">Queremos que la home de Diario UNO se lea como un <strong className="text-text-primary">relato en sí mismo</strong>, donde cada título no es una información aislada, sino un párrafo que cuenta un fragmento de la historia del día. Además, buscamos que cada uno de esos párrafos (o sea: cada título) no solo informe, sino que provoque una <strong className="text-text-primary">emoción definida</strong>: sorpresa, indignación, orgullo, curiosidad, empatía.</p>
+              <p className="text-text-secondary text-lg">✓ Queremos que la home de Diario UNO se lea como un <strong className="text-text-primary">relato en sí mismo</strong>, donde cada título y foto no son una información aislada, sino un párrafo que cuenta un fragmento de la historia del día. Buscamos que cada uno de esos párrafos (o sea: cada título) no solo informe, sino que provoque en el lector humano una <strong className="text-text-primary">emoción definida</strong>: sorpresa, indignación, orgullo, curiosidad, empatía.</p>
+              <p>✓ Queremos que los títulos interiores seduzcan a los algoritmos con un Seo bien pensada, ademas de despertar las mismas emociones humanas que los de portada.</p>
             </div>
           </div>
         </section>
@@ -44,39 +45,38 @@ const Portada = () => {
             <div className="bg-gray-50 p-6 rounded-lg border">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-12 h-12 mx-auto text-brand mb-4"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
               <h3 className="text-xl font-bold mb-2 text-text-primary">Aumentar Visitas Directas</h3>
-              <p className="text-text-secondary">Atraer a lectores que hoy prefieren las portadas de otros diarios, convirtiendo nuestra home en su destino principal.</p>
+              
             </div>
             <div className="bg-gray-50 p-6 rounded-lg border">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-12 h-12 mx-auto text-brand mb-4"><path d="M15 15l-2 5L9 9l11 4-5 2z"></path><path d="M15 15l5 5"></path></svg>
               <h3 className="text-xl font-bold mb-2 text-text-primary">Elevar Tasa de Clics (CTR)</h3>
-              <p className="text-text-secondary">Transformar el interés generado por los títulos en acciones concretas, aumentando drásticamente la interacción.</p>
             </div>
           </div>
         </section>
 
         <section className="card p-8 md:p-10">
           <h2 className="text-3xl font-bold text-center mb-8">3. ¿Cómo lo haremos? <span className="brand-text">El Método</span></h2>
-          <p className="text-center text-text-secondary text-lg mb-10 max-w-2xl mx-auto">Nuestra estrategia se articula en cinco pilares fundamentales de ejecución. Navegá por cada uno para explorar los detalles.</p>
+          <p className="text-center text-text-secondary text-lg mb-10 max-w-2xl mx-auto">Nuestra estrategia se articula en cinco pilares de ejecución. Navegá por cada uno para explorar los detalles.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
             <a href="#punto1" className="block bg-gray-50 p-4 rounded-lg border-l-4 border-brand hover:bg-gray-100 transition-colors duration-300 transform hover:-translate-y-1 shadow-sm">
                 <div className="text-brand font-black text-sm mb-1">PUNTO 1</div>
-                <h3 className="text-md font-bold text-text-primary">Definir Audiencia</h3>
+                <h3 className="text-md md:text-2xl font-bold text-text-primary">Definir Audiencia</h3>
             </a>
             <a href="#punto2" className="block bg-gray-50 p-4 rounded-lg border-l-4 border-brand hover:bg-gray-100 transition-colors duration-300 transform hover:-translate-y-1 shadow-sm">
                 <div className="text-brand font-black text-sm mb-1">PUNTO 2</div>
-                <h3 className="text-md font-bold text-text-primary">Construir Agenda</h3>
+                <h3 className="text-md md:text-2xl font-bold text-text-primary">Construir Agenda</h3>
             </a>
             <a href="#punto3" className="block bg-gray-50 p-4 rounded-lg border-l-4 border-brand hover:bg-gray-100 transition-colors duration-300 transform hover:-translate-y-1 shadow-sm">
                 <div className="text-brand font-black text-sm mb-1">PUNTO 3</div>
-                <h3 className="text-md font-bold text-text-primary">Dominar Titulación</h3>
+                <h3 className="text-md md:text-2xl font-bold text-text-primary">Dominar Titulación</h3>
             </a>
             <a href="#punto4" className="block bg-gray-50 p-4 rounded-lg border-l-4 border-brand hover:bg-gray-100 transition-colors duration-300 transform hover:-translate-y-1 shadow-sm">
                 <div className="text-brand font-black text-sm mb-1">PUNTO 4</div>
-                <h3 className="text-md font-bold text-text-primary">Potenciar con IA</h3>
+                <h3 className="text-md md:text-2xl font-bold text-text-primary">Potenciar con IA</h3>
             </a>
             <a href="#punto5" className="block bg-gray-50 p-4 rounded-lg border-l-4 border-brand hover:bg-gray-100 transition-colors duration-300 transform hover:-translate-y-1 shadow-sm">
                 <div className="text-brand font-black text-sm mb-1">PUNTO 5</div>
-                <h3 className="text-md font-bold text-text-primary">Nuestro Paradigma</h3>
+                <h3 className="text-md md:text-2xl font-bold text-text-primary">Nuestro Paradigma</h3>
             </a>
           </div>
         </section>
