@@ -313,9 +313,9 @@ export default function Punto3_Titulacion() {
       <div className="mb-16">
         <h3 className="mb-4 brand-text">D. Ejemplos de Titulación</h3>
         <p className="text-text-secondary mb-6">
-          La siguiente tabla muestra ejemplos concretos de cómo transformar un
-          título funcional pero "pobre" en uno "mejor", con más impacto o
-          intriga.
+          {
+            'La siguiente tabla muestra ejemplos concretos de cómo transformar un título funcional pero "pobre" en uno "mejor", con más impacto o intriga.'
+          }
         </p>
 
         {/* Tabla de Ejemplos con Tailwind CSS */}
