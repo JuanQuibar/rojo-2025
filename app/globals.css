@@ -15,7 +15,10 @@
     --color-success: #198754;
     --color-info: #0dcaf0;
   }
-  html { @apply scroll-smooth; }
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
     background-color: var(--color-background);
     color: var(--color-text-primary);
@@ -24,25 +27,49 @@
     margin: 0 auto; /* Centra el contenido horizontalmente */
     @apply antialiased;
   }
-  h1, h2, h3 { font-family: var(--font-merriweather); @apply font-bold; }
-  h1 { @apply text-4xl md:text-[2.75rem] leading-tight; }
-  h2 { @apply text-3xl md:text-4xl leading-snug; }
-  h3 { @apply text-2xl md:text-3xl leading-normal; }
-  h4 { @apply text-xl font-bold; }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-merriweather);
+    @apply font-bold;
+  }
+  h1 {
+    @apply text-4xl md:text-[2.75rem] leading-tight;
+  }
+  h2 {
+    @apply text-3xl md:text-4xl leading-snug;
+  }
+  h3 {
+    @apply text-2xl md:text-3xl leading-normal;
+  }
+  h4 {
+    @apply text-xl font-bold;
+  }
 }
 
 @layer components {
   /* --- Estilos Generales --- */
-  .brand-text { color: var(--color-brand); }
-  .section-subtitle { @apply font-sans font-bold text-brand uppercase tracking-wider; }
+  .brand-text {
+    color: var(--color-brand);
+  }
+  .section-subtitle {
+    @apply font-sans font-bold text-brand uppercase tracking-wider;
+  }
   .card {
     background-color: var(--color-surface);
     border: 1px solid var(--color-border);
     @apply rounded-xl shadow-sm transition-all duration-300;
   }
-  .card:hover { border-color: var(--color-brand); @apply shadow-lg; }
-  .divider { height: 1px; background-color: var(--color-border); @apply my-20; }
-  
+  .card:hover {
+    border-color: var(--color-brand);
+    @apply shadow-lg;
+  }
+  .divider {
+    height: 1px;
+    background-color: var(--color-border);
+    @apply my-20;
+  }
+
   /* ======================================= */
   /* --- CALCULADORA DE VALOR PERIODÍSTICO --- */
   /* ======================================= */
@@ -56,7 +83,10 @@
     text-align: center;
     font-weight: 500;
   }
-  .value-selector-label:hover { background-color: #f1f3f5; border-color: #adb5bd; }
+  .value-selector-label:hover {
+    background-color: #f1f3f5;
+    border-color: #adb5bd;
+  }
   input[type="radio"]:checked + .value-selector-label {
     background-color: var(--color-brand);
     border-color: var(--color-brand);
@@ -72,7 +102,11 @@
     border-radius: 9999px;
     border: 2px solid transparent;
   }
-  .emoji-btn:hover { opacity: 1; filter: grayscale(0%); transform: scale(1.1); }
+  .emoji-btn:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
   .emoji-btn.selected {
     opacity: 1;
     filter: grayscale(0%);
@@ -80,9 +114,18 @@
     background-color: rgba(0, 150, 255, 0.1);
     border-color: var(--color-brand);
   }
-  .intensity-star { cursor: pointer; color: #ced4da; transition: all 0.2s ease; }
-  .intensity-star:hover { transform: scale(1.2); color: var(--color-warning); }
-  .intensity-star.selected { color: var(--color-warning); }
+  .intensity-star {
+    cursor: pointer;
+    color: #ced4da;
+    transition: all 0.2s ease;
+  }
+  .intensity-star:hover {
+    transform: scale(1.2);
+    color: var(--color-warning);
+  }
+  .intensity-star.selected {
+    color: var(--color-warning);
+  }
   .quadrant {
     transition: all 0.3s ease-in-out;
     border: 2px solid var(--color-border);
@@ -95,50 +138,58 @@
     z-index: 10;
     box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.15);
   }
-  .quadrant-lider.highlighted { border-color: var(--color-danger); }
-  .quadrant-apuesta.highlighted { border-color: var(--color-warning); }
-  .quadrant-contexto.highlighted { border-color: var(--color-brand); }
-  .quadrant-baja.highlighted { border-color: var(--color-text-secondary); }
+  .quadrant-lider.highlighted {
+    border-color: var(--color-danger);
+  }
+  .quadrant-apuesta.highlighted {
+    border-color: var(--color-warning);
+  }
+  .quadrant-contexto.highlighted {
+    border-color: var(--color-brand);
+  }
+  .quadrant-baja.highlighted {
+    border-color: var(--color-text-secondary);
+  }
 
   details {
     border: 1px solid var(--color-border);
     border-radius: 0.5rem;
     transition: background-color 0.2s;
-}
-details[open] {
+  }
+  details[open] {
     background-color: var(--color-surface);
-}
-summary {
+  }
+  summary {
     font-weight: 500;
     cursor: pointer;
     padding: 1rem;
-}
-summary::marker {
+  }
+  summary::marker {
     color: var(--color-brand);
-}
-.details-content {
+  }
+  .details-content {
     padding: 0 1rem 1rem 2.5rem;
     color: var(--color-text-secondary);
-}
-.styled-list {
-  list-style: none;
-  padding-left: 0;
-}
-.styled-list li {
-  position: relative;
-  padding-left: 1.75rem;
-  margin-bottom: 0.75rem;
-  color: var(--color-text-secondary);
-}
-.styled-list li::before {
-  content: '✓';
-  position: absolute;
-  left: 0;
-  top: 2px;
-  color: var(--color-brand);
-  font-weight: bold;
-  font-size: 1.1rem;
-}
+  }
+  .styled-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .styled-list li {
+    position: relative;
+    padding-left: 1.75rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-text-secondary);
+  }
+  .styled-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: var(--color-brand);
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
 
   /* --- Otros estilos que puedan haber faltado --- */
   /* (Aquí irían los estilos de la planilla de titulación, que ya funcionan bien) */
