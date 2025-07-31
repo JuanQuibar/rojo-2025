@@ -5,7 +5,7 @@ const Punto4_IA = () => {
       className="min-h-[50vh] flex items-center justify-center text-center scroll-mt-24"
     >
       <div>
-        <p className="section-subtitle">PUNTO 4: EL MÉTODO</p>
+        <p className="section-subtitle">EL MÉTODO - 3.4</p>
         <h2 className="mt-2 text-gray-400">
           Potenciar el SEO con Inteligencia Artificial
         </h2>

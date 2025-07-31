@@ -2,7 +2,7 @@ const Punto5_Cierre = () => {
   return (
     <section id="punto5" className="mb-16 scroll-mt-24">
       <div className="text-center mb-12">
-        <p className="section-subtitle">PUNTO 5: CIERRE</p>
+        <p className="section-subtitle">CIERRE</p>
         <h2 className="mt-2">
           Nuestro Paradigma:{" "}
           <span className="brand-text">Un Cierre y un Compromiso</span>

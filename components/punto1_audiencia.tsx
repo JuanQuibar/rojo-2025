@@ -2,7 +2,7 @@ const Punto1_Audiencia = () => {
   return (
     <section id="punto1" className="mb-16 scroll-mt-24">
       <div className="text-center mb-12">
-        <p className="section-subtitle">PUNTO 1: EL MÉTODO</p>
+        <p className="section-subtitle">EL MÉTOTO - 3.1</p>
         <h2 className="mt-2">
           Definir a nuestra <span className="brand-text">Audiencia</span>
         </h2>
@@ -12,7 +12,7 @@ const Punto1_Audiencia = () => {
           Arquetipo: <span className="text-blue-600">Crítico y Orgulloso</span>
         </h3>
         <p className="text-lg text-gray-700">
-          Nuestro lector es un hombre o una mujer de entre 38 y 60 años, un
+          Nuestro lector es un hombre o una mujer de entre 38 y 70 años, un
           mendocino instruido y consolidado que no consume noticias por
           casualidad, sino con intención. Acude a nosotros de forma directa
           porque espera un periodismo que esté a la altura de su propia
@@ -72,9 +72,9 @@ const Punto1_Audiencia = () => {
             </div>
             <h4 className="mb-2">Intelectualmente Seguro</h4>
             <p className="text-text-secondary">
-              Se frustra si siente que sabe más que el periodista. Busca
-              información rigurosa para separar los hechos de la
-              &quot;hojarasca&quot; de las redes y las fake news.
+              Vive una experiencia negativa cuando siente que sabe más que el
+              periodista. Busca información rigurosa que le auyude a desestimar
+              la &quot;hojarasca&quot; y las fake news generadas en las redes.
             </p>
           </div>
           <div className="card p-6 text-center">
@@ -131,7 +131,7 @@ const Punto1_Audiencia = () => {
       <div>
         <h3 className="text-center mb-8">
           Guía de Tono y Estilo:{" "}
-          <span className="brand-text">¿cómo nos dirigimos a él?</span>
+          <span className="brand-text">¿cómo nos dirigimos a él o ella?</span>
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           <div className="card p-6 text-center">
@@ -207,8 +207,8 @@ const Punto1_Audiencia = () => {
             </div>
             <h4 className="mb-2">Titulación Emocional</h4>
             <p className="text-text-secondary">
-              Cada título es un gancho estratégico. Evitá lo predecible, lo
-              obvio. Despertá una emoción o una curiosidad.
+              Cada título es estratégico. Evitá lo predecible, lo obvio.
+              Despertá una emoción o una curiosidad.
             </p>
           </div>
           <div className="card p-6 text-center">

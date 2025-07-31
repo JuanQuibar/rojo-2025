@@ -68,10 +68,10 @@ const Portada = () => {
                 <strong className="text-text-primary">emoción definida</strong>:
                 sorpresa, indignación, orgullo, curiosidad, empatía.
               </p>
-              <p>
+              <p className="text-text-secondary text-lg">
                 ✓ Queremos que los títulos interiores seduzcan a los algoritmos
-                con un Seo bien pensada, ademas de despertar las mismas
-                emociones humanas que los de portada.
+                con un Seo bien pensado, ademas de despertar las mismas
+                emociones humanas que los títullos de home.
               </p>
             </div>
           </div>
@@ -139,7 +139,7 @@ const Portada = () => {
               href="#punto1"
               className="block bg-gray-50 p-4 rounded-lg border-l-4 border-brand hover:bg-gray-100 transition-colors duration-300 transform hover:-translate-y-1 shadow-sm"
             >
-              <div className="text-brand font-black text-sm mb-1">PUNTO 1</div>
+              <div className="text-brand font-black text-sm mb-1">3.1</div>
               <h3 className="text-md md:text-2xl font-bold text-text-primary">
                 Definir Audiencia
               </h3>
@@ -148,7 +148,7 @@ const Portada = () => {
               href="#punto2"
               className="block bg-gray-50 p-4 rounded-lg border-l-4 border-brand hover:bg-gray-100 transition-colors duration-300 transform hover:-translate-y-1 shadow-sm"
             >
-              <div className="text-brand font-black text-sm mb-1">PUNTO 2</div>
+              <div className="text-brand font-black text-sm mb-1">3.2</div>
               <h3 className="text-md md:text-2xl font-bold text-text-primary">
                 Construir Agenda
               </h3>
@@ -157,7 +157,7 @@ const Portada = () => {
               href="#punto3"
               className="block bg-gray-50 p-4 rounded-lg border-l-4 border-brand hover:bg-gray-100 transition-colors duration-300 transform hover:-translate-y-1 shadow-sm"
             >
-              <div className="text-brand font-black text-sm mb-1">PUNTO 3</div>
+              <div className="text-brand font-black text-sm mb-1">3.3</div>
               <h3 className="text-md md:text-2xl font-bold text-text-primary">
                 Dominar Titulación
               </h3>
@@ -166,7 +166,7 @@ const Portada = () => {
               href="#punto4"
               className="block bg-gray-50 p-4 rounded-lg border-l-4 border-brand hover:bg-gray-100 transition-colors duration-300 transform hover:-translate-y-1 shadow-sm"
             >
-              <div className="text-brand font-black text-sm mb-1">PUNTO 4</div>
+              <div className="text-brand font-black text-sm mb-1">3.4</div>
               <h3 className="text-md md:text-2xl font-bold text-text-primary">
                 Potenciar con IA
               </h3>
@@ -175,7 +175,7 @@ const Portada = () => {
               href="#punto5"
               className="block bg-gray-50 p-4 rounded-lg border-l-4 border-brand hover:bg-gray-100 transition-colors duration-300 transform hover:-translate-y-1 shadow-sm"
             >
-              <div className="text-brand font-black text-sm mb-1">PUNTO 5</div>
+              <div className="text-brand font-black text-sm mb-1">3.5</div>
               <h3 className="text-md md:text-2xl font-bold text-text-primary">
                 Nuestro Paradigma
               </h3>

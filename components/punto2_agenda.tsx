@@ -44,14 +44,14 @@ const Punto2_Agenda = () => {
     <section id="punto2" className="mb-16 scroll-mt-24">
       {/* Contenido estático superior (no necesita cambios) */}
       <div className="text-center mb-12">
-        <p className="section-subtitle">PUNTO 2: EL MÉTODO</p>
+        <p className="section-subtitle">EL MÉTODO - 3.2</p>
         <h2 className="mt-2">
           Construir nuestra <span className="brand-text">Agenda</span>
         </h2>
         <p className="text-center text-lg text-text-secondary max-w-4xl mx-auto mt-4">
-          Adoptamos un modelo analítico y deliberado para interpretar la
-          realidad, jerarquizarla y construir una agenda con una intención
-          clara: conectar profundamente con nuestro modelo de lector.
+          Adoptamos un método de varios pasos para definir la agenda, decidir
+          qué temas se trabajan y cuáles se descartan, con una intención clara:
+          conectar profundamente con nuestro modelo de lector.
         </p>
       </div>
 
@@ -144,9 +144,11 @@ const Punto2_Agenda = () => {
           Filtro para Evaluar Noticias
         </h3>
         <p className="text-center text-text-secondary max-w-3xl mx-auto mb-12">
-          <span className="font-bold">Antes de encar una nota,</span> cada tema
-          potencial debe pasar por este filtro de tres fases para determinar su
-          verdadero valor para nuestra portada.
+          <span className="font-bold">Antes de encarar una nota,</span> cada
+          tema potencial debe pasar por este filtro de tres fases para
+          determinar su verdadero valor para nuestra home. Intentaremos que los
+          temas que pasen el filtro sirvan para título principal, pero no
+          descartamos temas que pueden ir más abajo.
         </p>
 
         <div className="space-y-8 max-w-4xl mx-auto">
@@ -221,8 +223,8 @@ const Punto2_Agenda = () => {
             <p className="text-text-secondary mb-4">
               Este es nuestro gran diferenciador y el factor decisivo. La
               Intensidad Emocional anula cualquier otra jerarquía y determina el
-              valor final de una noticia. Una noticia con Fuerza 5 es un ancla
-              de portada indiscutible.
+              valor final de una noticia. Una noticia con Fuerza 5 es un tesoro
+              indiscutible.
             </p>
             <div className="bg-gray-50 p-4 rounded-md border">
               <h5 className="font-bold text-lg mb-4 text-center text-brand">

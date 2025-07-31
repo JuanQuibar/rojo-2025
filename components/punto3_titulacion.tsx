@@ -71,7 +71,7 @@ export default function Punto3_Titulacion() {
   return (
     <section id="punto3" className="mb-16 scroll-mt-24">
       <div className="text-center mb-12">
-        <p className="section-subtitle">PUNTO 3: EL MÉTODO</p>
+        <p className="section-subtitle">EL MÉTODO - 3.3</p>
         <h2 className="mt-2">
           Dominar el arte de la{" "}
           <span className="brand-text">Titulación Estratégica</span>
@@ -133,9 +133,10 @@ export default function Punto3_Titulacion() {
                   estar optimizado con palabras clave.
                 </li>
                 <li>
-                  <strong className="text-text-primary">Aclaración:</strong>{" "}
-                  Todo lo anterior no significa que el título sea aburrido o con
-                  poca carga emocional.
+                  <strong className="text-text-primary">Aclaración:</strong> El
+                  título Seo (interior) se basa en el título de portada y se le
+                  agregan las palabras necesarias para ganar relevancia en los
+                  buscadores. No es un título independiente.
                 </li>
               </ul>
             </div>
@@ -294,6 +295,22 @@ export default function Punto3_Titulacion() {
                 La revelación debe justificar el clic.
               </li>
             </ul>
+
+            <h4 className="font-bold text-xl mb-3 text-green-600">
+              Reglas para los &quot;títulos de Impacto&quot;
+            </h4>
+            <ul className="styled-list">
+              <li>
+                <strong className="text-text-primary">
+                  Primero la claridad:
+                </strong>{" "}
+                El título debe ser claro y comprensible a primera vista.
+              </li>
+              <li>
+                <strong className="text-text-primary">Directo:</strong> Decí lo
+                que querés contar, sin rodeos
+              </li>
+            </ul>
           </div>
           <div className="card p-6 border-l-4 border-danger">
             <h4 className="font-bold text-xl mb-3 text-red-600">
@@ -301,7 +318,9 @@ export default function Punto3_Titulacion() {
             </h4>
             <ul className="styled-list">
               <li>
-                Clichés y frases hechas (&quot;polémica en las redes&quot;).
+                {
+                  '"polémica en las redes“, "dispar acatamiento”, “el estadio vibró con el recital de…”, “Racing espera ganar el partido…”, "el clima se calienta en la previa del partido”, "todo lo que tenés que saber sobre"'
+                }
               </li>
               <li>Verbos en futuro sobre eventos no confirmados.</li>
               <li>Ambigüedad engañosa (Clickbait barato).</li>
@@ -355,7 +374,7 @@ export default function Punto3_Titulacion() {
         <ol className="list-decimal list-inside space-y-4 text-text-secondary card p-8">
           <li>
             Leé en voz alta los títulos y mirá las fotos que ya están en la
-            planilla o en la portada . Sentí el ritmo y el tono del
+            planilla o en la home. Sentí el ritmo y el tono del
             &quot;relato&quot; actual.
           </li>
           <li>
