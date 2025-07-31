@@ -248,8 +248,9 @@ export default function Punto3_Titulacion() {
             </div>
             <div className="pl-6 text-text-secondary">
               <p>
-                Para generar interés práctico y accionable. Respondé a la
-                pregunta "¿qué gano yo con esto?".
+                {
+                  'Para generar interés práctico y accionable. Respondé a la pregunta "¿qué gano yo con esto?".'
+                }
               </p>
               <p className="mt-2">
                 <em>
