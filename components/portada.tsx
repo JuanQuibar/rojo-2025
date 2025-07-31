@@ -60,7 +60,7 @@ const Portada = () => {
                 <strong className="text-text-primary">
                   relato en sí mismo
                 </strong>
-                , donde cada título y foto son un párrafo de una solo
+                , donde cada título y foto son un párrafo de una sola
                 experiencia informativa. La home debe funcionar como un
                 producto. Buscamos que cada uno de esos párrafos (o sea: cada
                 título) no solo informe, sino que provoque en el lector humano
