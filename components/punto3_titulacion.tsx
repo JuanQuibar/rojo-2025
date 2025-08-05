@@ -1,27 +1,14 @@
-"use client";
-
-import { useState, useEffect } from "react";
-import { getHomeArticles, type Article } from "@/lib/data";
+import { type Article } from "@/lib/data";
 import ApiTitleCard from "./api-title-card";
 import InteractiveTitleCard from "./interactive-card";
 
-export default function Punto3_Titulacion() {
-  const [articles, setArticles] = useState<Article[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+interface Punto3TitulacionProps {
+  articles: Article[];
+}
 
-  useEffect(() => {
-    getHomeArticles()
-      .then((data) => {
-        if (data.length > 0) setArticles(data);
-        else setError("No se recibieron artículos de la API.");
-      })
-      .catch((err) => {
-        setError(err.message || "Ocurrió un error desconocido.");
-      })
-      .finally(() => setLoading(false));
-  }, []);
-
+export default function Punto3_Titulacion({
+  articles = [],
+}: Punto3TitulacionProps) {
   const titulosEjemplo = [
     {
       poor: "Alfredo Cornejo criticó la falta de celeridad judicial y adelantó cambios en el sistema penal",
@@ -424,21 +411,13 @@ export default function Punto3_Titulacion() {
           Planilla de Titulación Interactiva
         </h4>
         <div className="space-y-6 max-w-[500px] mx-auto">
-          {loading && (
-            <div className="text-center text-text-secondary p-8">
-              Cargando noticias recientes...
-            </div>
-          )}
-          {error && <div className="text-center text-danger p-8">{error}</div>}
-          {!loading && !error && (
-            <>
-              {articles[0] && <ApiTitleCard article={articles[0]} />}
-              {articles[1] && <ApiTitleCard article={articles[1]} />}
-              <InteractiveTitleCard />
-              {articles[2] && <ApiTitleCard article={articles[2]} />}
-              {articles[3] && <ApiTitleCard article={articles[3]} />}
-            </>
-          )}
+          <>
+            {articles[0] && <ApiTitleCard article={articles[0]} />}
+            {articles[1] && <ApiTitleCard article={articles[1]} />}
+            <InteractiveTitleCard />
+            {articles[2] && <ApiTitleCard article={articles[2]} />}
+            {articles[3] && <ApiTitleCard article={articles[3]} />}
+          </>
         </div>
       </div>
 

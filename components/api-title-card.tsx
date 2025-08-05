@@ -1,24 +1,10 @@
-"use client";
-
 import Image from "next/image";
 import type { Article } from "@/lib/data";
 
-// Definimos la interfaz aquí también para que el componente sea autocontenido
-// Si ya la tienes en un archivo global (ej: @/lib/types), puedes importarla.
-// export interface Article {
-//   homeTitle?: string | null;
-//   title: string;
-//   thumbnails?: {
-//     files: { url: string }[];
-//   }[];
-// }
-
-// SUB-COMPONENTE para las tarjetas de la API
 export default function ApiTitleCard({ article }: { article: Article }) {
   const getImageUrl = (art: Article): string => {
     const placeholder = "/logo.png"; // Recomiendo tener un placeholder en /public
     if (!art?.thumbnails?.[0]?.files) return placeholder;
-    // Lógica para encontrar la URL correcta de la imagen
     return (
       art.thumbnails[0].files[1]?.url ||
       art.thumbnails[0].files[2]?.url ||
