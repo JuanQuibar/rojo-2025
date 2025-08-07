@@ -295,7 +295,7 @@ export default function Punto3_Titulacion({
               </li>
               <li>
                 <strong className="text-text-primary">Directo:</strong> Decí lo
-                que querés contar, sin rodeos
+                que querés contar, sin rodeos. No uses metáforas.
               </li>
             </ul>
           </div>
@@ -306,7 +306,7 @@ export default function Punto3_Titulacion({
             <ul className="styled-list">
               <li>
                 {
-                  '"polémica en las redes“, "dispar acatamiento”, “el estadio vibró con el recital de…”, “Racing espera ganar el partido…”, "el clima se calienta en la previa del partido”, "todo lo que tenés que saber sobre"'
+                  '"polémica en las redes“, "dispar acatamiento”, “el estadio vibró con el recital de…”, “Racing espera ganar el partido…”, "el clima se calienta en la previa del partido”, "todo lo que tenés que saber sobre", "cantó retruco", redobló la apuesta", "sueña con"'
                 }
               </li>
               <li>Verbos en futuro sobre eventos no confirmados.</li>
@@ -373,7 +373,10 @@ export default function Punto3_Titulacion({
           <li>
             Sometelo a este filtro de preguntas:
             <ul className="list-disc list-inside ml-6 mt-2">
-              <li>¿Se entiende a la perfección? Si no, reescribilo.</li>
+              <li>
+                ¿Se entiende a la perfección en la primera lectura si lo leo en
+                voz alta? Si no, reescribilo.
+              </li>
               <li>
                 ¿Genera la emoción buscada? Si es tibio, reescribilo buscando
                 más potencia.
